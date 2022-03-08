@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="themes/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{asset('ico/favicon.ico')}}">
     <title>Bootstrappage.com free templates</title>
 
     <!-- Bootstrap core CSS -->
@@ -23,7 +23,7 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="themes/assets/css/carousel.css" rel="stylesheet">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -174,19 +174,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="themes/assets/images/nepali-momo.png" alt="Generic placeholder image">
+          <img class="img-circle" src="images/nepali-momo.png" alt="Generic placeholder image">
           <h2>Nepalese MOMO</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies</p>
           <p><a class="btn btn-default" href="#" role="button">&pound; 2.2 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img class="img-circle" src="images/burger.png" alt="Generic placeholder image">
           <h2>Burger</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
           <p><a class="btn btn-default" href="#" role="button">&pound;5 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-		  <img class="img-circle" src="themes/assets/images/gorkha-special-chicken.png" alt="Lam Tikka">
+		  <img class="img-circle" src="images/gorkha-special-chicken.png" alt="Lam Tikka">
           <h2>Gurkha Chicken</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
           <p><a class="btn btn-default" href="#" role="button">&pound;4 Add to cart &raquo;</a></p>
@@ -222,17 +222,17 @@
         <div class="item active">
          <div class="row">
         <div class="col-lg-4">
-          <img src="themes/assets/images/salate.png" alt="Generic placeholder image">
+          <img src="{{asset('images/salate.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img src="{{asset('images/burger.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img src="{{asset('images/drinks.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -242,17 +242,17 @@
         <div class="item">
          <div class="row">
         <div class="col-lg-4">
-          <img src="themes/assets/images/salate.png" alt="Generic placeholder image">
+          <img src="{{asset('images/salate.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img src="{{asset('images/burger.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img src="{{asset('images/drinks.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -262,17 +262,17 @@
         <div class="item">
           <div class="row">
         <div class="col-lg-4">
-          <img  src="themes/assets/images/salate.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/salate.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/burger.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/drinks.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -292,17 +292,17 @@
         <div class="item active">
          <div class="row">
         <div class="col-lg-4">
-           <img src="themes/assets/images/salate.png" alt="Generic placeholder image">
+           <img src="{{asset('images/salate.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-         <img src="themes/assets/images/chicken.png" alt="Generic placeholder image">
+         <img src="{{asset('images/chicken.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks_lussy.png" alt="Generic placeholder image">
+          <img src="{{asset('images/drinks_lussy.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -312,17 +312,17 @@
         <div class="item">
          <div class="row">
         <div class="col-lg-4">
-          <img src="themes/assets/images/chicken_fry.png" alt="Generic placeholder image">
+          <img src="{{asset('images/chicken_fry.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/fish-and-chips.png" alt="Generic placeholder image">
+          <img src="{{asset('images/fish-and-chips.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img src="{{asset('images/drinks.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -332,17 +332,17 @@
         <div class="item">
           <div class="row">
         <div class="col-lg-4">
-          <img  src="themes/assets/images/salate.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/salate.png')}}" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/burger.png')}}" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img  src="{{asset('images/drinks.png')}}" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -362,17 +362,17 @@
         <div class="item active">
          <div class="row">
         <div class="col-lg-4">
-          <img src="themes/assets/images/chicken_fry.png" alt="Generic placeholder image">
+          <img src="{{asset('images/chicken_fry.png')}}" alt="Generic placeholder image">
           <h4>Chicken</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/rice.png" alt="Generic placeholder image">
+          <img src="images/rice.png" alt="Generic placeholder image">
           <h4>Rice</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img src="images/drinks.png" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -382,17 +382,17 @@
         <div class="item">
          <div class="row">
         <div class="col-lg-4">
-          <img src="themes/assets/images/courinder.png" alt="Generic placeholder image">
+          <img src="images/courinder.png" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img src="images/burger.png" alt="Generic placeholder image">
           <h4>Meal</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img src="images/drinks.png" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -402,17 +402,17 @@
         <div class="item">
           <div class="row">
         <div class="col-lg-4">
-          <img  src="themes/assets/images/salate.png" alt="Generic placeholder image">
+          <img  src="images/salate.png" alt="Generic placeholder image">
           <h4>Salates</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/chicken_fry.png" alt="Generic placeholder image">
+          <img  src="images/chicken_fry.png" alt="Generic placeholder image">
           <h4>Chicken</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img  src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+          <img  src="images/drinks.png" alt="Generic placeholder image">
           <h4>Drink</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -430,13 +430,13 @@
 	<div class="row">
 		<div class="col-lg-4">
 		<div class="media">
-			<a href="menu/"><img src="themes/assets/images/nepali-momo.png" alt="nepali-momo"> </a>
+			<a href="menu/"><img src="images/nepali-momo.png" alt="nepali-momo"> </a>
 			<h3 class="media-heading text-primary-theme">NEPALESE LAMB MOMO</h3>
 			<p>Steamed dumplings filled with slightly spiced minced meat served with special sauce.</p>
 		</div>
 		</div>
 		<div class="col-lg-4">
-		<div class="media"><a href="menu/"><img src="themes/assets/images/gorkha-special-chicken.png" alt="GURKHA SPECIAL CHICKEN"> </a>
+		<div class="media"><a href="menu/"><img src="images/gorkha-special-chicken.png" alt="GURKHA SPECIAL CHICKEN"> </a>
 		<h3 class="media-heading text-danger-theme">GURKHA SPECIAL CHICKEN</h3>
 		<p>Boneless chicken marinated in mustard, smoked chilli, herbs and spices slowly cooked in tandoor. </p>
 
@@ -444,7 +444,7 @@
 		</div>
 		<div class="col-lg-4">
 		<div class="media">
-		<a href="menu/"><img src="themes/assets/images/lam-tikka.png" alt="Lam Tikka"> </a>
+		<a href="menu/"><img src="images/lam-tikka.png" alt="Lam Tikka"> </a>
 		<h3 class="media-heading">LAMB TIKKA SPECIAL</h3>
 		<p>Tender pieces of lamb mixed with our own spices and gently cooked in clay oven. </p>
 		</div>
@@ -506,7 +506,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img src="themes/assets/images/fish-and-chips.png" alt="Fish and Chips">
+          <img src="images/fish-and-chips.png" alt="Fish and Chips">
         </div>
       </div>
       </div>
@@ -515,7 +515,7 @@
 	<div class="item">
       <div class="row featurette">
         <div class="col-md-5">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <img src="images/burger.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Oh yeah, very nice Burger. <span class="text-muted">Delicious.</span></h2>
@@ -532,7 +532,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-		  <img class="img-circle" src="themes/assets/images/drinks.png" alt="Generic placeholder image">
+		  <img class="img-circle" src="images/drinks.png" alt="Generic placeholder image">
         </div>
       </div>
       </div>
@@ -556,7 +556,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="themes/dist/js/bootstrap.min.js"></script>
-    <script src="themes/assets/js/holder.js"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/holder.js')}}"></script>
   </body>
 </html>

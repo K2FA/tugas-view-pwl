@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="themes/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="ico/favicon.ico">
     <title>Bootstrappage.com free templates</title>
 
     <!-- Bootstrap core CSS -->
@@ -131,13 +131,13 @@
 	<div class="row">
 		<div class="col-lg-4">
 		<div class="media">
-			<a href="menu/"><img src="http://dev.bombaytakeawayclub.com/assets/img/nepali-momo.png" alt="nepali-momo"> </a>
+			<a href="menu/"><img src="images/nepali-momo.png" alt="nepali-momo"> </a>
 			<h3 class="media-heading text-primary-theme">NEPALESE LAMB MOMO</h3>
 			<p>Steamed dumplings filled with slightly spiced minced meat served with special sauce.</p>
 		</div>
 		</div>
 		<div class="col-lg-4">
-		<div class="media"><a href="menu/"><img src="http://dev.bombaytakeawayclub.com/assets/img/gorkha-special-chicken.png" alt="GURKHA SPECIAL CHICKEN"> </a>
+		<div class="media"><a href="menu/"><img src="images/gorkha-special-chicken.png" alt="GURKHA SPECIAL CHICKEN"> </a>
 		<h3 class="media-heading text-danger-theme">GURKHA SPECIAL CHICKEN</h3>
 		<p>Boneless chicken marinated in mustard, smoked chilli, herbs and spices slowly cooked in tandoor. </p>
 
@@ -145,7 +145,7 @@
 		</div>
 		<div class="col-lg-4">
 		<div class="media">
-		<a href="menu/"><img src="http://dev.bombaytakeawayclub.com/assets/img/lam-tikka.png" alt="Lam Tikka"> </a>
+		<a href="menu/"><img src="images/lam-tikka.png" alt="Lam Tikka"> </a>
 		<h3 class="media-heading">LAMB TIKKA SPECIAL</h3>
 		<p>Tender pieces of lamb mixed with our own spices and gently cooked in clay oven. </p>
 		</div>
@@ -210,8 +210,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="themes/dist/js/bootstrap.min.js"></script>
-    <script src="themes/assets/js/holder.js"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/holder.js')}}"></script>
   </body>
 </html>
 
