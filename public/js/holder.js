@@ -20,7 +20,7 @@ var Holder = Holder || {};
     if (!canvas.getContext) {
         fallback = true;
     } else {
-        if (canvas.toDataURL("images/png").indexOf("data:image/png") < 0) {
+        if (canvas.toDataURL("image/png").indexOf("data:image/png") < 0) {
             //Android doesn't support data URI
             fallback = true;
         } else {
@@ -43,7 +43,7 @@ var Holder = Holder || {};
 
     var settings = {
         domain: "holder.js",
-        images: "images",
+        images: "img",
         bgnodes: ".holderjs",
         themes: {
             gray: {

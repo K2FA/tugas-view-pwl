@@ -10,8 +10,8 @@
     <title>Bootstrappage.com free templates</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
 
 
 
